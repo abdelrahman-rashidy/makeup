@@ -23,20 +23,35 @@ textarea{
 
 /***************** start items **********/
 .items {
-
+    
 }
 .items h2 {
-
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    position: relative;
+    top: -40px;
+    width: 17%;
+    margin-left: 40%;
+    
 }
 .items .item-block {
+    display: inline-block;
+    width:200px;
+    height: 230px;
 
 }
 .items .item-block img {
 
 }
 .items .item-block span{
-
+    
 }
+body > div.row.items > div > span:nth-child(3)
+{
+    font-weight: bold;
+}
+
 
 /***************** end items *************/
 
@@ -112,7 +127,7 @@ textarea{
     border-style: solid;
     background-color: #e6609b;
     border-width: 0;
-        font-size: x-large;
+    font-size: x-large;
 }
 
 /********************* end contact-us ************/
