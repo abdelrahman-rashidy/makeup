@@ -13,41 +13,154 @@ body {
 .row {
     width: 100%;
 }
-textarea{
+
+textarea {
     resize: none;
     overflow: hidden;
+}
+
+.conatainer {
+    width: 80%;
+    margin: auto;
+}
+
+
+/**/
+
+body > div.row.header > div > button {
+    border-radius: 50px;
+    color: white;
+    background-color: #cf1173;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10%;
+}
+.brand
+{
+    float: right;
+    margin: 5px;
+}
+.bg {
+    color: white;
+    clear:both;
+    float: left;
+    width: 40%;
+    margin-left: 10%;
 
 }
-.conatainer{
-    width:80%;
-    margin:auto;
+.bg h1{
+    float: left;
+    display: block;
+    margin-bottom: 3%;
+    
 }
-/******************category***********/
-.category
+.bg p{
+    font-size: 18px;
+
+    width: 60%;
+
+}
+
+body > div.row.header > nav > ul:nth-child(1), body > div.row.header > nav > ul:nth-child(1) li{
+    float: left;
+    display: inline-block;
+    color: white;
+    margin: 1% 4%;
+    
+    
+}
+body > div.row.header > nav > ul:nth-child(1){
+     margin: 1% 4%;
+     width: 25%;
+}
+body > div.row.header > nav > div > img
 {
+    float: left;
+         width: 25%;
+
+}
+
+body > div.row.header > nav > ul:nth-child(3)
+{
+    float: right;
+    display: inline;
+    color: white;
+    margin: 1% 4%;
+         width: 25%;
+}
+body > div.row.header > nav
+{
+    font-size: 18px;
+}
+body > div.row.header > nav > ul:nth-child(3) li {
+    float: left;
+        margin: 1% 4%;
+        
+
+}
+
+/**/
+
+.header {
+    background-image: url('../image/hero_image.jpg');
+    height: 660px;
+    background-size: cover;
+}
+
+
+/******************category***********/
+
+.category {
     width: 1400px;
     height: 220px;
     overflow: hidden;
 }
-.nd img{
+
+.nd {
+
+    border: 1px solid black;
+}
+
+body>div.row.category>div>div.nd {
+    float: right;
+        padding-top: 1%;
+
+}
+
+.nd img {
     width: 90px;
     height: 18px;
     margin-right: 2%;
     margin-bottom: 2%;
 }
-.first li{
+
+body>div.row.category>div>div.frist {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+body>div.row.category>div>div.frist>span {
+    float: right;
+}
+
+body>div.row.category>div>div.frist li {
     direction: rtl;
     display: inline-block;
+    height: 20px;
+    margin-right: 9%;
 }
+
+body>div.row.category>div>div.frist ul {}
 
 
 /***************end     category***********/
 
 
 /***************** start items **********/
-.items {
-    
-}
+
+.items {}
+
 .items h2 {
     font-weight: bold;
     text-transform: uppercase;
@@ -56,28 +169,26 @@ textarea{
     top: -18px;
     width: 20%;
     margin-left: 40%;
-    
 }
+
 .items .item-block {
     display: inline-block;
     width: 140px;
     height: 230px;
     margin-right: 5%;
 }
-.items .item-block img {
 
-}
-.items .item-block span{
-    
+.items .item-block img {}
+
+.items .item-block span {
     display: block;
 }
-body > div.row.items > div > div > span:nth-child(3)
-{
-        font-weight: bold;
 
+body>div.row.items>div>div>span:nth-child(3) {
+    font-weight: bold;
 }
-body > div.row.items > div > span:nth-child(3)
-{
+
+body>div.row.items>div>span:nth-child(3) {
     font-weight: bold;
 }
 
@@ -85,70 +196,96 @@ body > div.row.items > div > span:nth-child(3)
 /***************** end items *************/
 
 
-
-
-
 /********************* start contact-us ************/
-.contact-us{
 
+.contact-us {
     background-image: url(../image/bgimg.jpg);
     background-position: center;
-     
+        padding-bottom: 58px;
 }
+
 .contact-us h2 {
     color: white;
-    padding-top:5%;
-        margin-bottom: 0;
+    padding-top: 5%;
+    margin-bottom: 0;
 }
-.contact-us .a1{
-    float:left;
 
+.contact-us .a1 {
+    float: left;
 }
-.contact-us .a2{
-    float:right;
+
+.contact-us .a2 {
+    float: right;
 }
-.contactus{
-    width:50%;
+
+.contactus {
+    width: 50%;
     color: white;
     margin-left: 25%;
-    margin-bottom:15%;
+    margin-bottom: 15%;
 }
-.contact-us .textarea{
-    clear:both;
-    content:" "
+
+.contact-us .textarea {
+    clear: both;
 }
+
 .contact-us .textarea textarea{
-    border:solid 2px #aaa;
-    margin:3px;
+    border: solid 2px #aaa;
+    margin: 3px;
 }
+
 .contact-us .textarea .left-side{
     float: left;
-    margin-left: 3%;
-    width:45%;
-}
-.contact-us .textarea .right-side{
-    float: right;
-    width:45%;
+    width: 45%;
     margin-right: 3%;
-
 }
-.contact-us .textarea .left-side textarea{
+input{
     float: left;
-    width:100%
+    margin-left: 3%;
+    width: 64%;
+    display: block;
+    margin: 10px;
+    padding: 20px 11px;
+    font-size: 16px;
+    text-align: left;
 }
 
-.contact-us .textarea .wa{
-    float:right;
-    width:100%;
+.contact-us .textarea .right-side {
+    float: right;
+    width: 45%;
+    margin-right: 3%;
 }
-.contact-us .textarea .me{
-    float:right;
-    width:100%;
-    height:125px;
+
+.contact-us .textarea .left-side textarea {
+    float: left;
+    width: 100%
 }
-.contact-us .textarea button{
+.contact-us .form{
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 18px;
+}
+.contact-us .textarea .wa {
+    float: right;
+    width: 100%;
+}
+
+.contact-us .textarea .me {
+    float: left;
+ width: 64%;
+    display: block;
+    margin: 10px;
+    padding: 20px 11px;
+    font-size: 16px;
+        height: 234px;
+    text-align: left;
+}
+body > div.row.contact-us > div > div.textarea > div > div.left-side > input{
+    float: right;
+}
+.contact-us .textarea button {
     width: 80%;
-    color:white;
+    color: white;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 13px;
@@ -159,8 +296,8 @@ body > div.row.items > div > span:nth-child(3)
     font-size: x-large;
 }
 
-/********************* end contact-us ************/
 
+/********************* end contact-us ************/
 
 
 /*************** start subscribe *****************/
@@ -172,21 +309,30 @@ body > div.row.items > div > span:nth-child(3)
 }
 
 .subscribe div {
-margin: 2% 6%;
+    margin: 2% 6%;
 }
 
 .subscribe .s1 {
     float: left;
 }
-
+.s1 h3{
+    margin-bottom:3%; 
+}
 .subscribe .s2 {
     float: right;
 }
-
+.s1 input{
+    width: 60%;
+    margin-left: 2%;
+    margin: 0;
+    padding: 15px;
+}
 .subscribe .social {
     margin: auto;
 }
-
+body > div.row.subscribe > div.s1 > input[type="text"]{
+    margin-right:0;
+}
 .subscribe textarea {
     border: 1px solid #d1c7ac;
     width: 230px;
@@ -198,18 +344,19 @@ margin: 2% 6%;
     resize: none;
     line-height: 3;
     text-align: start;
-    float: left;
     font-size: medium;
 }
 
 .subscribe button {
     padding: 17px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #aaa;
-    background-color: #EEE;
+    border: 2px solid black;
+    background-color:#3a3a3a;
     font-weight: bolder;
     margin: 0;
+    color: white;
+    float: left;
+
+    
 }
 
 
@@ -221,18 +368,20 @@ margin: 2% 6%;
 .logos {
     background-color: #e6609b;
     clear: both;
-    width:100%
+    width: 100%
 }
-.logos .img{
-    width:80%;
-    margin-left:10%;
 
+.logos .img {
+    width: 80%;
+    margin-left: 10%;
 }
-body > div.row.logos > img:nth-child(1){
-}
+
+body>div.row.logos>img:nth-child(1) {}
+
 .logos img {
     width: 100px;
-    height: 50px;;
+    height: 50px;
+    ;
 }
 
 
@@ -246,10 +395,12 @@ body > div.row.logos > img:nth-child(1){
     background-color: #1c1c1c;
     color: #eee;
     text-align: start;
+    font-size:14px;
+    padding-top:20px;
 }
 
-body > div.row.footer > div > div{
-    width:20% ;
+body>div.row.footer>div>div {
+    width: 18%;
     float: left;
 }
 
@@ -265,7 +416,22 @@ body > div.row.footer > div > div{
 
 .footer .block li {
     text-align: start;
+    padding:6px 0px;
 }
 
+.b2
+{
+    width:64%;
+}
+
+body > div.row.footer > div > div:nth-child(5){
+    float:right;
+    text-align:right;
+    width:20%;
+
+}
+body > div.row.footer > div > div:nth-child(5) li{
+    padding:0px;
+}
 
 /*************** End footer *************/
