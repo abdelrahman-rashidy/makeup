@@ -22,18 +22,26 @@ textarea{
     width:80%;
     margin:auto;
 }
-/******************nd***********/
+/******************category***********/
 .category
 {
+    width: 1400px;
+    height: 220px;
     overflow: hidden;
 }
 .nd img{
     width: 90px;
-    height: 9px;
+    height: 18px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.first li{
+    direction: rtl;
+    display: inline-block;
 }
 
 
-/***************end     nd***********/
+/***************end     category***********/
 
 
 /***************** start items **********/
