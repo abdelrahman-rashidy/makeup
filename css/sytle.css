@@ -1,11 +1,227 @@
 * {
     text-align: center;
-    box-sizing: box-sizing;
+    box-sizing: border-box;
     list-style-type: none;
 }
+
+body {
+    background-color: #eee;
+}
+
+.row {
+    width: 100%;
+}
+textarea{
+    resize: none;
+    overflow: hidden;
+
+}
+.conatainer{
+    width:80%;
+    margin-left:10%;
+}
+
+/***************** start items **********/
+.items {
+
+}
+.items h2 {
+
+}
+.items .item-block {
+
+}
+.items .item-block img {
+
+}
+.items .item-block span{
+
+}
+
+/***************** end items *************/
+
+
+
+
+
+/********************* start contact-us ************/
+.contact-us{
+
+    background-image: url(../image/bgimg.jpg);
+    background-position: center;
+     
+}
+.contact-us h2 {
+    color: white;
+    padding-top:5%;
+        margin-bottom: 0;
+}
+.contact-us .a1{
+    float:left;
+
+}
+.contact-us .a2{
+    float:right;
+}
+.contactus{
+    width:50%;
+    color: white;
+    margin-left: 25%;
+    margin-bottom:15%;
+}
+.contact-us .textarea{
+    clear:both;
+    content:" "
+}
+.contact-us .textarea textarea{
+    border:solid 2px #aaa;
+    margin:3px;
+}
+.contact-us .textarea .left-side{
+    float: left;
+    margin-left: 3%;
+    width:45%;
+}
+.contact-us .textarea .right-side{
+    float: right;
+    width:45%;
+    margin-right: 3%;
+
+}
+.contact-us .textarea .left-side textarea{
+    float: left;
+    width:100%
+}
+
+.contact-us .textarea .wa{
+    float:right;
+    width:100%;
+}
+.contact-us .textarea .me{
+    float:right;
+    width:100%;
+    height:125px;
+}
+.contact-us .textarea button{
+    width: 80%;
+    color:white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 13px;
+    border-radius: 28px;
+    border-style: solid;
+    background-color: #e6609b;
+    border-width: 0;
+        font-size: x-large;
+}
+
+/********************* end contact-us ************/
+
+
+
+/*************** start subscribe *****************/
+
+.subscribe {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-bottom: 2vh
+}
+
+.subscribe div {
+margin: 2% 6%;
+}
+
+.subscribe .s1 {
+    float: left;
+}
+
+.subscribe .s2 {
+    float: right;
+}
+
+.subscribe .social {
+    margin: auto;
+}
+
+.subscribe textarea {
+    border: 1px solid #d1c7ac;
+    width: 230px;
+    height: 54px;
+    color: #333333;
+    padding: 3px;
+    margin-bottom: 8px;
+    font-family: tahoma, arial, sans-serif;
+    resize: none;
+    line-height: 3;
+    text-align: start;
+    float: left;
+    font-size: medium;
+}
+
+.subscribe button {
+    padding: 17px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aaa;
+    background-color: #EEE;
+    font-weight: bolder;
+    margin: 0;
+}
+
+
+/*************** end subscribe  *****************/
+
+
+/*************** start logos *****************/
+
+.logos {
+    background-color: #e6609b;
+    clear: both;
+    width:100%
+}
+.logos .img{
+    width:80%;
+    margin-left:10%;
+
+}
+body > div.row.logos > img:nth-child(1){
+}
+.logos img {
+    width: 100px;
+    height: 50px;;
+}
+
+
+/*************** end logos *****************/
 
 
 /*************** starting footer *************/
 
-.footer
+.footer {
+    padding-bottom: 20%;
+    background-color: #1c1c1c;
+    color: #eee;
+    text-align: start;
+}
+
+body > div.row.footer > div > div{
+    width:20% ;
+    float: left;
+}
+
+.footer .r1 {
+    color: #ea619d !important;
+    margin-bottom: 13px;
+}
+
+.footer .block img {
+    float: left;
+    margin: 1px;
+}
+
+.footer .block li {
+    text-align: start;
+}
+
+
 /*************** End footer *************/
