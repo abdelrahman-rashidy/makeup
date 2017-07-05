@@ -134,7 +134,6 @@ body > div.row.header > nav > ul:nth-child(3) li {
 
 .nd {
 
-    border: 1px solid black;
 }
 
 body>div.row.category>div>div.nd {
@@ -152,7 +151,6 @@ body>div.row.category>div>div.nd {
 }
 
 body>div.row.category>div>div.frist {
-    border: 1px solid black;
     padding: 1%;
     margin-top: 25px;   
 }
@@ -191,18 +189,20 @@ body>div.row.category>div>div.frist ul {
 
 .items .item-block {
 display: inline-block;
-    width: 150px;
-    height: 230px;
-    margin: 3%;
-        border:1px solid red;
-        float:left;
-
+    width: 20%;
+    margin: 0 2.5%;
+    float:left;
+    overflow: hidden;
 }
-
+.items .items-store{
+    margin:auto;
+}
 .items .item-block .imgBox{
-    border:1px solid red;
 }
-.items .item-block img {}
+.items .item-block img {
+    width: 100%;
+    height: auto;
+}
 
 .items .item-block span {
     display: block;
@@ -252,7 +252,7 @@ body>div.row.items>div>span:nth-child(3) {
     width: 50%;
     color: white;
     margin-left: 25%;
-    margin-bottom: 15%;
+    margin-bottom: 11%;
 }
 
 .contact-us .textarea {
