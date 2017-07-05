@@ -24,8 +24,13 @@ textarea {
     margin: auto;
 }
 
-
-/**/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration:underline;
+}
 
 body > div.row.header > div > button {
     border-radius: 50px;
@@ -34,12 +39,15 @@ body > div.row.header > div > button {
     border: none;
     width: 200px;
     padding: 10px;
-    margin-top: 10%;
+    margin-top: 10%;    
+    cursor: pointer;
+    float: left;
 }
 .brand
 {
     float: right;
     margin: 5px;
+        font-size: 21px;
 }
 .bg {
     color: white;
@@ -57,7 +65,7 @@ body > div.row.header > div > button {
 }
 .bg p{
     font-size: 18px;
-
+    text-align: justify;
     width: 60%;
 
 }
@@ -70,14 +78,21 @@ body > div.row.header > nav > ul:nth-child(1), body > div.row.header > nav > ul:
     
     
 }
+body > div.row.header > nav > ul > li > a {
+    color: white;
+    text-transform:uppercase;
+}
 body > div.row.header > nav > ul:nth-child(1){
      margin: 1% 4%;
      width: 25%;
 }
-body > div.row.header > nav > div > img
+body > div.row.header > nav > div > a > img
 {
     float: left;
-         width: 25%;
+    width: 25%;
+    position: relative;
+    top: -45px;
+        margin-left: 71px;
 
 }
 
@@ -87,11 +102,12 @@ body > div.row.header > nav > ul:nth-child(3)
     display: inline;
     color: white;
     margin: 1% 4%;
-         width: 25%;
+    width: 29%;
 }
 body > div.row.header > nav
 {
-    font-size: 18px;
+    padding-top: 40px;
+    font-size: larger;
 }
 body > div.row.header > nav > ul:nth-child(3) li {
     float: left;
@@ -112,7 +128,6 @@ body > div.row.header > nav > ul:nth-child(3) li {
 /******************category***********/
 
 .category {
-    width: 1400px;
     height: 220px;
     overflow: hidden;
 }
@@ -131,33 +146,36 @@ body>div.row.category>div>div.nd {
 .nd img {
     width: 90px;
     height: 18px;
-    margin-right: 2%;
-    margin-bottom: 2%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    float: right;
 }
 
 body>div.row.category>div>div.frist {
     border: 1px solid black;
     padding: 1%;
+    margin-top: 25px;   
 }
 
 body>div.row.category>div>div.frist>span {
     float: right;
+        font-size: 21px;
 }
 
 body>div.row.category>div>div.frist li {
-    direction: rtl;
     display: inline-block;
-    height: 20px;
-    margin-right: 9%;
+    margin-right: 14%;
 }
 
-body>div.row.category>div>div.frist ul {}
+body>div.row.category>div>div.frist ul {
+
+}
 
 
-/***************end     category***********/
+        /***************end         category***********/
 
 
-/***************** start items **********/
+        /***************** start items **********/
 
 .items {}
 
@@ -172,16 +190,23 @@ body>div.row.category>div>div.frist ul {}
 }
 
 .items .item-block {
-    display: inline-block;
-    width: 140px;
+display: inline-block;
+    width: 150px;
     height: 230px;
-    margin-right: 5%;
+    margin: 3%;
+        border:1px solid red;
+        float:left;
+
 }
 
+.items .item-block .imgBox{
+    border:1px solid red;
+}
 .items .item-block img {}
 
 .items .item-block span {
     display: block;
+
 }
 
 body>div.row.items>div>div>span:nth-child(3) {
@@ -201,19 +226,24 @@ body>div.row.items>div>span:nth-child(3) {
 .contact-us {
     background-image: url(../image/bgimg.jpg);
     background-position: center;
-        padding-bottom: 58px;
-}
+    padding-bottom: 58px;
+    font-size: x-large;
+}   
 
 .contact-us h2 {
     color: white;
     padding-top: 5%;
     margin-bottom: 0;
+    font-size:40px;
+    font-weight: bolder;    
 }
 
 .contact-us .a1 {
     float: left;
 }
-
+.contact-us p {
+    font-weight: 100;
+}
 .contact-us .a2 {
     float: right;
 }
@@ -229,10 +259,7 @@ body>div.row.items>div>span:nth-child(3) {
     clear: both;
 }
 
-.contact-us .textarea textarea{
-    border: solid 2px #aaa;
-    margin: 3px;
-}
+
 
 .contact-us .textarea .left-side{
     float: left;
@@ -277,7 +304,7 @@ input{
     margin: 10px;
     padding: 20px 11px;
     font-size: 16px;
-        height: 234px;
+        height: 225px;
     text-align: left;
 }
 body > div.row.contact-us > div > div.textarea > div > div.left-side > input{
@@ -333,29 +360,17 @@ body > div.row.contact-us > div > div.textarea > div > div.left-side > input{
 body > div.row.subscribe > div.s1 > input[type="text"]{
     margin-right:0;
 }
-.subscribe textarea {
-    border: 1px solid #d1c7ac;
-    width: 230px;
-    height: 54px;
-    color: #333333;
-    padding: 3px;
-    margin-bottom: 8px;
-    font-family: tahoma, arial, sans-serif;
-    resize: none;
-    line-height: 3;
-    text-align: start;
-    font-size: medium;
-}
+
 
 .subscribe button {
     padding: 17px;
-    border: 2px solid black;
+    border: 1px solid #3a3a3a    ;
     background-color:#3a3a3a;
     font-weight: bolder;
     margin: 0;
     color: white;
     float: left;
-
+    cursor:pointer;
     
 }
 
@@ -410,7 +425,7 @@ body>div.row.footer>div>div {
 }
 
 .footer .block img {
-    float: left;
+    float: right;
     margin: 1px;
 }
 
@@ -428,7 +443,6 @@ body > div.row.footer > div > div:nth-child(5){
     float:right;
     text-align:right;
     width:20%;
-
 }
 body > div.row.footer > div > div:nth-child(5) li{
     padding:0px;
