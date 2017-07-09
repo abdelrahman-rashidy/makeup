@@ -31,6 +31,13 @@ a {
 a:hover{
     text-decoration:underline;
 }
+ /*************************** header  &  nav starting ***********************/ 
+
+.header {
+    background-image: url('../image/hero_image.jpg');
+    height: 660px;
+    background-size: cover;
+}
 
 body > div.row.header > div > button {
     border-radius: 50px;
@@ -47,7 +54,7 @@ body > div.row.header > div > button {
 {
     float: right;
     margin: 5px;
-        font-size: 21px;
+    font-size: 21px;
 }
 .bg {
     color: white;
@@ -84,15 +91,15 @@ body > div.row.header > nav > ul > li > a {
 }
 body > div.row.header > nav > ul:nth-child(1){
      margin: 1% 4%;
-     width: 25%;
+     width: 27%;
 }
 body > div.row.header > nav > div > a > img
 {
     float: left;
-    width: 25%;
+    width: 21%;
     position: relative;
     top: -45px;
-        margin-left: 71px;
+    margin-left: 71px;
 
 }
 
@@ -102,7 +109,7 @@ body > div.row.header > nav > ul:nth-child(3)
     display: inline;
     color: white;
     margin: 1% 4%;
-    width: 29%;
+    width: 30%;
 }
 body > div.row.header > nav
 {
@@ -111,21 +118,17 @@ body > div.row.header > nav
 }
 body > div.row.header > nav > ul:nth-child(3) li {
     float: left;
-        margin: 1% 4%;
+    margin: 1% 4%;
         
 
 }
 
-/**/
-
-.header {
-    background-image: url('../image/hero_image.jpg');
-    height: 660px;
-    background-size: cover;
-}
+/************************** header  & nav end ************************/
 
 
-/******************category***********/
+
+
+/******************category start***********/
 
 .category {
     height: 220px;
@@ -138,7 +141,7 @@ body > div.row.header > nav > ul:nth-child(3) li {
 
 body>div.row.category>div>div.nd {
     float: right;
-        padding-top: 1%;
+    padding-top: 1%;
 
 }
 
@@ -157,7 +160,7 @@ body>div.row.category>div>div.frist {
 
 body>div.row.category>div>div.frist>span {
     float: right;
-        font-size: 21px;
+    font-size: 21px;
 }
 
 body>div.row.category>div>div.frist li {
@@ -170,7 +173,7 @@ body>div.row.category>div>div.frist ul {
 }
 
 
-        /***************end         category***********/
+        /***************   end   category***********/
 
 
         /***************** start items **********/
@@ -188,11 +191,12 @@ body>div.row.category>div>div.frist ul {
 }
 
 .items .item-block {
-display: inline-block;
+    display: inline-block;
     width: 20%;
-    margin: 0 2.5%;
+    margin: 25px 2.5%;
     float:left;
     overflow: hidden;
+    background-color:#efefff;
 }
 .items .items-store{
     margin:auto;
@@ -206,7 +210,12 @@ display: inline-block;
 
 .items .item-block span {
     display: block;
+    
 
+}
+body > div.row.items > div > div > div > span:nth-child(3)
+{
+    font-weight: 
 }
 
 body>div.row.items>div>div>span:nth-child(3) {
@@ -217,7 +226,8 @@ body>div.row.items>div>span:nth-child(3) {
     font-weight: bold;
 }
 
-
+.after-items{
+}
 /***************** end items *************/
 
 
@@ -269,12 +279,14 @@ body>div.row.items>div>span:nth-child(3) {
 input{
     float: left;
     margin-left: 3%;
-    width: 64%;
+    width: 80%;
     display: block;
     margin: 10px;
     padding: 20px 11px;
     font-size: 16px;
     text-align: left;
+    border: 2px solid #aaa;
+
 }
 
 .contact-us .textarea .right-side {
@@ -299,16 +311,19 @@ input{
 
 .contact-us .textarea .me {
     float: left;
- width: 64%;
+    width: 80%;
     display: block;
     margin: 10px;
     padding: 20px 11px;
     font-size: 16px;
-        height: 225px;
+    height: 225px;
     text-align: left;
+    border: 2px solid #aaa;
+
 }
 body > div.row.contact-us > div > div.textarea > div > div.left-side > input{
     float: right;
+    border: 2px solid #aaa;
 }
 .contact-us .textarea button {
     width: 80%;
@@ -396,22 +411,22 @@ body>div.row.logos>img:nth-child(1) {}
 .logos img {
     width: 100px;
     height: 50px;
-    ;
+    
 }
 
 
 /*************** end logos *****************/
 
 
-/*************** starting footer *************/
-
 .footer {
-    padding-bottom: 20%;
+    padding-bottom: 9%;
     background-color: #1c1c1c;
-    color: #eee;
+    color: #aaa;
     text-align: start;
     font-size:14px;
     padding-top:20px;
+    line-height: 33%;
+    
 }
 
 body>div.row.footer>div>div {
@@ -425,7 +440,7 @@ body>div.row.footer>div>div {
 }
 
 .footer .block img {
-    float: right;
+    float: left;
     margin: 1px;
 }
 
@@ -433,7 +448,11 @@ body>div.row.footer>div>div {
     text-align: start;
     padding:6px 0px;
 }
-
+body > div.row.footer > div > div:nth-child(5) > ul
+{
+    color: #aaa;
+    line-height: 1;
+}
 .b2
 {
     width:64%;
@@ -443,9 +462,94 @@ body > div.row.footer > div > div:nth-child(5){
     float:right;
     text-align:right;
     width:20%;
+
 }
 body > div.row.footer > div > div:nth-child(5) li{
     padding:0px;
 }
 
 /*************** End footer *************/
+
+@media only screen and (max-width:800px) {/* for mediam size */
+    .header {
+  background-image: url(../image/hero_image.jpg);
+    height: 555px;
+    background-size: contain;
+    width: 100%;
+
+}
+body > div.row.header > nav > ul:nth-child(1) {
+    width:100%;
+    font-size: 13px;
+    float: left;
+}
+body > div.row.header > nav > ul:nth-child(3) {
+    float: left;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    margin-top: -12%;
+}
+body > div.row.header > nav > ul:nth-child(1) > li:nth-child(4) > a > img,
+body > div.row.header > nav > ul:nth-child(3) > li:nth-child(1) > a > img
+{
+    width: 60%;
+}
+body > div.row.header > nav > ul:nth-child(1) > li:nth-child(4) > a > img{
+    margin-left: 54%;
+}
+
+body > div.row.header > nav > div > a > img{
+    margin-left: 27%;
+    margin-top: 6%;
+    width: 40%;
+}
+.bg h1 {
+    float: left;
+    display: block;
+    margin-top: 13%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    width: 200%;
+}
+.bg p {
+    font-size: 13px;
+    text-align: justify;
+    width: 128%;
+}
+body>div.row.category>div>div.frist>span {
+    float: right;
+    font-size: 17px;
+}
+body>div.row.category>div>div.frist li {
+    display: inline-block;
+    margin-right: 4%;
+    font-size: 13px;
+}
+.brand {
+    float: right;
+    margin: 5px;
+    font-size: 17px;
+}
+.nd img {
+    width: 107px;
+    height: 20px;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 1%;
+    
+}
+
+.items h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    position: relative;
+    top: -14px;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 30%;
+}
+}

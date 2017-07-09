@@ -1,0 +1,189 @@
+
+/* media 768px-428px */
+
+@media only screen and (max-width:800px) {
+.conatainer{
+        width:100%;
+}
+
+.items .items-store{
+
+}
+.items h2{
+        font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    position: relative;
+    top: -18px;
+    width: 40%;
+    margin-left: 30%;
+
+}
+.items .items-store .item-block{
+    display: inline-block;
+    width: 41%;
+    margin: 1% 4.5%;
+    float: left;
+    overflow: hidden;
+    background-color: #efefff;
+}
+
+
+
+
+
+
+
+.contact-us .contactus .a1{
+    float: none;
+}
+.contact-us .contactus .a2{
+    float: none;
+
+}
+.contact-us h2{
+    font-size:30px!important;
+}
+body > div.row.contact-us > div > h2{
+    font-size:50px!important;
+}
+.contactus{
+
+}
+body > div.row.contact-us > div > div.textarea > div > div.left-side > input{
+    float: none;
+}
+.contact-us .textarea .me{
+    width:100%
+}
+body > div.row.contact-us > div > div.textarea > div > div > input{
+    width: 100%
+}
+
+.contact-us .textarea .left-side{
+    float: none;
+    width:80%;
+    margin-left:10%;
+}
+.contact-us .textarea .right-side{
+float: none;
+    width: 80%;
+    margin-left: 10%;
+
+}
+div.row.contact-us  textarea{
+        width: 100%;
+}
+
+
+
+/*****************************************************/
+.subscribe{
+    width:100%;
+    margin:0
+}
+.subscribe div{
+
+}
+body > div.row.subscribe > div.s1 > input[type="text"]{
+margin-right: 0;
+    margin-left: 5%;
+    width: 90%;
+    display: block;
+}
+.s1 h3{
+    display: inline;
+    width: 100%;
+    float: left;
+    margin: 3% 0;
+}
+.subscribe .s2 {
+    display: inline;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+}
+.subscribe .s1{
+float: none;
+
+}
+.s1 input{
+    padding: 3.7%;
+}
+.subscribe button{
+        padding: 4.2%;
+        margin-right: 0;
+    margin-left: 5%;
+    width: 90%;
+    display: block;
+     margin-top: 10px;
+    border-radius: 10px;
+}
+.subscribe .social{
+    margin:0;
+}
+
+/****************************************************************/
+.footer {
+    background-color: #000;
+    text-align: start;
+    font-size:14px;
+    padding-top:0;
+}
+.b2
+{
+
+    background-color: #000;
+    width:100%;
+}
+.footer .block , body>div.row.footer>div>div{
+    background-color: #000;
+    width: 100%;
+    padding-top: 17px;
+}
+
+.footer .address{
+    color:#f0f;
+    padding: 10px 0 ;
+}
+.footer .block li{
+       text-align: center; 
+
+}
+.footer .address{
+    padding-top: 6px;
+}
+body > div.row.footer > div > div:nth-child(5){
+    background-color: #000;
+    width: 100%;
+    float: left;
+}
+.footer .block img{
+float: left;
+    margin: 1%;
+    width: 13%;
+    margin-left: 4%;
+}
+
+.footer .block .social-icon {
+    padding-bottom: 6px;
+    margin-left: 25%;
+    width: 50%;
+    float: left;
+}
+.footer .last-block{
+    padding-bottom: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
